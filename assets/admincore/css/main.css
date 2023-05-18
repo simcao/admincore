@@ -1,0 +1,32 @@
+@import "components/topbar.css";
+@import "components/sidebar.css";
+@import "components/grid.css";
+
+:root {
+    --topbar-height: 50px;
+    --sidebar-width: 250px;
+
+    --color-primary : #F38375;
+    --color-primary-text: white;
+
+    --color-background: #F5F5F5;
+    --color-box: white;
+    --color-text-default: #707070;
+    --color-text-box: #707070;
+
+    --box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    --box-shadow-light: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--color-text-default);
+    background-color: var(--color-background);
+    font-family: sans-serif;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}

@@ -3,3 +3,9 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+admin_core:
+    resource:
+        path: ../src/AdminCore/Controller/
+        namespace: App\AdminCore\Controller
+    type: attribute
