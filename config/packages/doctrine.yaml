@@ -16,6 +16,11 @@ doctrine:
                 dir: '%kernel.project_dir%/src/Entity'
                 prefix: 'App\Entity'
                 alias: App
+            AdminCore:
+                is_bundle: false
+                dir: '%kernel.project_dir%/src/AdminCore/Entity'
+                prefix: 'App\AdminCore\Entity'
+                alias: AdminCore
 
 when@test:
     doctrine:
