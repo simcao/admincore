@@ -30,7 +30,6 @@ class ClearFixturesCommand extends Command
         parent::__construct($name);
     }
 
-
     /**
      *  Clears database
      *

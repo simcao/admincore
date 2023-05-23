@@ -1,0 +1,31 @@
+{% extends 'admincore/base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Produits</h1>
+                <a href="{{ path('admin_core_product_add') }}">Nouveau produit</a>
+            </div>
+        </div>
+        <div class="row">
+            {% for product in products %}
+                <div class="col-4 mt-3">
+                    <div class="card">
+                        <div class="card-title">
+                            {{ product.name }}
+                        </div>
+                        <div class="card-body">
+                            <p class="text-preview-50">
+                                {{ product.description|slice(0, 150) }}...
+                            </p>
+                            <p>
+                                <span class="badge badge-primary">{{ product.price / 100 }}€</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

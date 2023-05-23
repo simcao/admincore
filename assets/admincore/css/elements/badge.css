@@ -1,0 +1,12 @@
+.badge {
+    background-color: var(--color-background);
+    padding: 5px 15px;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    font-weight: bold;
+}
+.badge-primary {
+    background-color: var(--color-primary);
+    color: var(--color-primary-text);
+}

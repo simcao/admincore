@@ -1,0 +1,27 @@
+.card {
+    background-color: var(--color-box);
+    color: var(--color-text-box);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 5px 15px;
+    box-shadow: var(--box-shadow-light);
+    -webkit-box-shadow: var(--box-shadow-light);
+    -moz-box-shadow: var(--box-shadow-light);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+}
+.card .card-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-transform: lowercase;
+    color: var(--color-primary);
+}
+.card .card-title:first-letter {
+    text-transform: capitalize;
+}
+.card .card-body {
+    font-size: .9rem;
+    margin-top: .5rem;
+}
